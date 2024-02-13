@@ -1,0 +1,37 @@
+.online-members {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto 0;
+  background-color: whitesmoke;
+  overflow-x: scroll;
+}
+
+.single-member {
+  text-align: center;
+  min-width: 25px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #fefefe;
+  border-radius: 50%;
+  background-color: antiquewhite;
+  color: chocolate;
+}
+
+.member-details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  min-height: 400px;
+  background-color: whitesmoke;
+}
+
+.name,
+.age {
+  margin: 10px;
+  padding: 10px;
+  font-size: x-large;
+}
